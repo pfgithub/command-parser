@@ -1,0 +1,16 @@
+{
+  "name": "command-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pfgithub/command-parser.git",
+  "license": "MIT",
+  "scripts": {
+    "test": "nyc mocha",
+    "posttest": "nyc report --reporter lcov",
+    "test-error": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nyc": "^11.8.0"
+  }
+}
